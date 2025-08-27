@@ -8,8 +8,6 @@ function Button({ variant = "blue", label = "More Details" }) {
     red: styles1.button,
     newStyle: newStyle.button,
   };
-
-  return <button className={styleMap[variant]}>{label}</button>;
 }
 
 export default Button;
