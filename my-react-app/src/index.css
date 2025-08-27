@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --main-font: Arial, Helvetica, sans-serif;
   --header-font: Helvetica;
   --delay-anim: 1ms;
@@ -45,7 +45,6 @@
 }
 
 .card .card-button-container {
-  /* logic */
   border-radius: 50%;
 }
 
@@ -63,4 +62,22 @@
   color: hsla(0, 0%, 87%, 0.93);
   background-color: hsla(0, 0%, 5%, 0.761);
   transform: scale(1.1);
+} */
+
+/* .button {
+  background-color: hsl(200, 100%, 50%);
+  color: #f4f4f9;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out,
+    box-shadow 0.4s ease-in-out;
 }
+
+.button:hover {
+  transform: scale(1.06);
+  background-color: hsl(200, 92%, 40%);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.218);
+} */

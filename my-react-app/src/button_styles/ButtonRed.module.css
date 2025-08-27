@@ -1,0 +1,18 @@
+.button {
+  background-color: hsl(13, 100%, 50%);
+  color: #f4f4f9;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out,
+    box-shadow 0.4s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.06);
+  background-color: hsl(13, 91%, 37%);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.218);
+}
