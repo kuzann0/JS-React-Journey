@@ -9,6 +9,7 @@ function App() {
     <>
       <Button variant="blue" />
       <Button variant="red" />
+      <Button variant="newStyle" />
     </>
   );
 }
